@@ -1,0 +1,25 @@
+$c-primary: #d40511;
+$c-secondary: #ffcc00;
+$c-default: rgb(50, 49, 48);
+.custom-styles {
+ h2 {
+   a {
+     color: rgb(50, 49, 48);
+     text-decoration: none;
+     &:hover {
+       color: $c-primary;
+     }
+   }
+ }
+  .rte-webpart {
+    .cke_editable {
+      a {
+        color: $c-default;
+        text-decoration: none;
+        &:hover {
+          color: $c-primary;
+        }
+      }
+    }
+  }
+}

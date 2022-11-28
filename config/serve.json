@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://dpdhl.sharepoint.com/teams/datafactory",
+      "customActions": {
+        "8c874b68-3158-4376-bd7f-42ea9683ea4c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "customStyles": {
+      "pageUrl": "https://dpdhl.sharepoint.com/teams/datafactory",
+      "customActions": {
+        "8c874b68-3158-4376-bd7f-42ea9683ea4c": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

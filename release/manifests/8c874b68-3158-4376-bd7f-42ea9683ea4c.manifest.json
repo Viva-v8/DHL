@@ -1,0 +1,26 @@
+{
+  "id": "8c874b68-3158-4376-bd7f-42ea9683ea4c",
+  "alias": "CustomStylesApplicationCustomizer",
+  "componentType": "Extension",
+  "extensionType": "ApplicationCustomizer",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "<!-- PATH TO CDN -->"
+    ],
+    "entryModuleId": "custom-styles-application-customizer",
+    "scriptResources": {
+      "custom-styles-application-customizer": {
+        "type": "path",
+        "path": "custom-styles-application-customizer.js"
+      },
+      "@microsoft/sp-application-base": {
+        "type": "component",
+        "id": "4df9bb86-ab0a-4aab-ab5f-48bf167048fb",
+        "version": "1.15.2"
+      }
+    }
+  }
+}

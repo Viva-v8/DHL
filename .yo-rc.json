@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.15.2",
+    "libraryName": "custom-styles",
+    "libraryId": "fe1a16a2-9db2-4dee-8865-808440392780",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "CustomStyles",
+    "solutionShortDescription": "CustomStyles description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
