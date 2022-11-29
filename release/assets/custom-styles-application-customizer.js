@@ -95,7 +95,7 @@ define("8c874b68-3158-4376-bd7f-42ea9683ea4c_0.0.1", ["@microsoft/sp-application
 
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "JPst")(false);
 // Module
-exports.push([module.i, ".custom-styles h2 a{color:#323130;text-decoration:none}.custom-styles h2 a:hover{color:#d40511}.custom-styles .rte-webpart .cke_editable a{color:#323130;text-decoration:none}.custom-styles .rte-webpart .cke_editable a:hover{color:#d40511}", ""]);
+exports.push([module.i, ".custom-styles h2 a{color:#323130;text-decoration:none}.custom-styles h2 a:hover{color:#d40511}.custom-styles .rte-webpart .cke_editable a{color:#323130;text-decoration:none}.custom-styles .bx_aa_9f38462c.bz_aa_9f38462c{height:auto!important}.custom-styles .a_a_50a7110f:not(.b_a_50a7110f){margin:4px 0}", ""]);
 
 
 /***/ }),

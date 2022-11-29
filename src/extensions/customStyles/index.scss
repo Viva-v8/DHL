@@ -17,9 +17,15 @@ $c-default: rgb(50, 49, 48);
         color: $c-default;
         text-decoration: none;
         &:hover {
-          color: $c-primary;
+
         }
       }
     }
+  }
+  .bx_aa_9f38462c.bz_aa_9f38462c {
+    height: auto !important;
+  }
+  .a_a_50a7110f:not(.b_a_50a7110f) {
+    margin: 4px 0;
   }
 }
