@@ -12,12 +12,48 @@ $c-default: rgb(50, 49, 48);
    }
  }
   .rte-webpart {
+    overflow: visible;
     .cke_editable {
+      padding: 5px;
       a {
         color: $c-default;
         text-decoration: none;
         &:hover {
 
+        }
+      }
+      table.cke_show_border {
+        border:none !important;
+        width: 100% !important;
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        border-radius: 7px;
+        margin: 10px 0;
+        td:nth-child(2) {
+          padding-left: 15px;
+          padding-right: 15px;
+        }
+        td,tr,th {
+          border:none !important;
+          padding: 0;
+        }
+        figure {
+          position: relative;
+          figcaption {
+            position: absolute;
+            bottom: 15%;
+            width: 100%;
+            font-weight: bold;
+          }
+        }
+        p {
+          margin: 0;
+          br {
+            display: none;
+          }
+        }
+        div.cke_widget_wrapper {
+          margin: 0 !important;
+          padding: 0;
         }
       }
     }
