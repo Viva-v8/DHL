@@ -22,12 +22,18 @@ $c-default: rgb(50, 49, 48);
 
         }
       }
+
       table.cke_show_border {
         border:none !important;
         width: 100% !important;
         box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
         border-radius: 7px;
         margin: 10px 0;
+        td:first-child {
+          div {
+            display: block;
+          }
+        }
         td:nth-child(2) {
           padding-left: 15px;
           padding-right: 15px;
@@ -105,5 +111,32 @@ $c-default: rgb(50, 49, 48);
   }
   .a_a_50a7110f:not(.b_a_50a7110f) {
     margin: 4px 0;
+  }
+  .g_b_50a7110f {
+    .a_c_50a7110f {
+      .k_c_50a7110f {
+        div[data-viewport-id="WebPart.PeopleWebPart.internal.c05be27e-257f-4590-af3f-472c6f58779b"] {
+          background: url("https://dpdhl.sharepoint.com/:i:/r/teams/datafactory/SiteAssets/SitePages/HomeNew/bg.jfif?csf=1&web=1&e=gNvfNp") bottom center no-repeat;
+          background-size: cover;
+          margin: 0px -32px 0px -32px;
+          padding: 100px 32px 0px 32px;
+          color: #FFFFFF !important;
+          span[role=heading] {
+            font-size: 30px;
+            text-shadow: 2px 2px  4px rgba(0,0,0,0.5);
+          }
+          .l_e_658c9e0a {
+            margin-bottom: 4px;
+          }
+          .w_h_a3a8085b,
+          .x_h_a3a8085b,
+          .root-40,
+          span,
+          a {
+            color: #FFFFFF !important;
+          }
+        }
+      }
+    }
   }
 }

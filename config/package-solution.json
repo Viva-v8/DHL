@@ -3,7 +3,7 @@
   "solution": {
     "name": "custom-styles-client-side-solution",
     "id": "fe1a16a2-9db2-4dee-8865-808440392780",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
