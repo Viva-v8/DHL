@@ -43,6 +43,35 @@ $c-default: rgb(50, 49, 48);
           padding: 0;
           position: relative;
         }
+        th,td {
+          @media (max-width: 1110px) and (min-width: 643px) {
+            display: block;
+            width: calc(100% - 30px) !important;
+            margin: 0;
+            padding: 15px;
+            &:first-child {
+              padding: 0;
+              width: 100% !important;
+            }
+            figure {
+              width: 100%;
+              img {
+                width: 100%;
+              }
+            }
+          }
+          @media (max-width: 500px){
+            display: block;
+            width: calc(100% - 16px) !important;
+            margin: 0;
+            figure {
+              width: 100%;
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
         td a {
           &:before {
             content: '';
@@ -137,6 +166,55 @@ $c-default: rgb(50, 49, 48);
           }
         }
       }
+    }
+  }
+  div[data-sp-feature-tag="NewsWebPart web part (News)"] {
+    div[data-automation-id="webPartHeader"] {
+      span {
+        font-size: 28px;
+        font-weight: 700;
+      }
+    }
+    div[data-automation-id="listNewsLayout"] {
+      div[role="list"]{
+        display: flex;
+        margin:0 -15px;
+        flex-wrap: wrap;
+        .x_f_91bed31b  {
+          width: calc(33.33% - 30px);
+          padding: 0 15px;
+          border-bottom: 0;
+          @media (max-width: 991px) and (min-width: 601px) {
+            width: calc(50% - 30px);
+          }
+          @media (max-width: 600px) {
+            width: calc(100% - 30px);
+          }
+        }
+        .ms-NewsPinningItemImage {
+          height: 256px;
+        }
+      }
+      a[data-automation-id="newsItemTitle"] {
+        display: block;
+        font-weight: 700;
+        @media (min-width: 600px) {
+          min-height: 54px;
+        }
+      }
+      div[data-automation-id="newsItemDescription"] {
+        display: block;
+        margin-bottom: 20px;
+        font-size: 14px;
+      }
+      .cz_l_91bed31b:not(.cy_l_91bed31b) {
+        flex-wrap: wrap;
+        .eg_l_91bed31b {
+          width: 100%;
+          margin-bottom: 20px;
+        }
+      }
+
     }
   }
 }

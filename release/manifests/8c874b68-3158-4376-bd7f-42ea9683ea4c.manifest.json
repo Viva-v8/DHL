@@ -14,7 +14,7 @@
     "scriptResources": {
       "custom-styles-application-customizer": {
         "type": "path",
-        "path": "custom-styles-application-customizer_ece4e5e1aa20fe434f5d.js"
+        "path": "custom-styles-application-customizer.js"
       },
       "@microsoft/sp-application-base": {
         "type": "component",

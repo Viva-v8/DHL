@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://dpdhl.sharepoint.com/teams/datafactory/SitePages/HomeNew.aspx",
+      "pageUrl": "https://dpdhl.sharepoint.com/sites/BICOE/SitePages/HomeBicoeNew.aspx",
       "customActions": {
         "8c874b68-3158-4376-bd7f-42ea9683ea4c": {
           "location": "ClientSideExtension.ApplicationCustomizer",
@@ -15,7 +15,7 @@
       }
     },
     "customStyles": {
-      "pageUrl": "https://dpdhl.sharepoint.com/teams/datafactory/SitePages/HomeNew.aspx",
+      "pageUrl": "https://dpdhl.sharepoint.com/sites/BICOE/SitePages/HomeBicoeNew.aspx",
       "customActions": {
         "8c874b68-3158-4376-bd7f-42ea9683ea4c": {
           "location": "ClientSideExtension.ApplicationCustomizer",
