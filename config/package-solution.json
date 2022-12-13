@@ -3,7 +3,7 @@
   "solution": {
     "name": "DHL_Custom_Style",
     "id": "fe1a16a2-9db2-4dee-8865-808440392780",
-    "version": "1.0.0.3",
+    "version": "1.0.0.4",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
@@ -30,7 +30,7 @@
         "title": "Application Extension - Deployment of custom action",
         "description": "Deploys a custom action with ClientSideComponentId association",
         "id": "397c1f6e-c5cc-4ddb-b007-0e480da570dd",
-        "version": "1.0.0.3",
+        "version": "1.0.0.4",
         "assets": {
           "elementManifests": [
             "elements.xml",
