@@ -270,6 +270,20 @@ $c-default: rgb(50, 49, 48);
       }
     }
   }
+  div[data-sp-feature-tag="Rich Text Editor"] {
+    div[data-automation-id="textBox"] {
+      overflow: visible;
+    }
+    a[title="https://dpdhl.sharepoint.com/sites/BICOE/SitePages/Blog.aspx"] {
+      float: right;
+      bottom: -38px;
+      position: relative;
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 
